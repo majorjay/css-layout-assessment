@@ -42,12 +42,21 @@ nav a {
 
 .photos {
     list-style: none;
+    width: 60%;
+    height: 70%;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns:50% auto;
+    grid-template-rows:auto;
+    grid-gap: 1px;
 }
 
 .feature {
     width: 200px;
+    float: left;
+    height: 300px;
+    width: 50%;
 }
 /* navigation */
 ul{
@@ -68,10 +77,4 @@ aside{
     display: table;
     float:right;
     width: 50%
-}
-.photos{
-    display: grid;
-    float: right;
-    column-width: 50%;
-    column-count: 2;
 }
