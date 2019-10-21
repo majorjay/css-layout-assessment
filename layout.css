@@ -55,3 +55,23 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+nav{
+    position: sticky;
+    top: 0em;
+}
+article{
+    display: table;
+    float: left;
+    width: 50%;
+}
+aside{
+    display: table;
+    float:right;
+    width: 50%
+}
+.photos{
+    display: grid;
+    float: right;
+    column-width: 50%;
+    column-count: 2;
+}
